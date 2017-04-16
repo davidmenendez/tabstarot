@@ -1,0 +1,104 @@
+* {
+  font-family: Verdana, sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #87a7c4;
+  background-image: url('../images/DSC_0183-min.JPG');
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.dailycard {
+  background-image: url('../images/DSC_0320-min.JPG');
+}
+
+.about {
+  background-image: url('../images/DSC_0326-min.JPG');
+}
+
+.contact {
+  background-image: url('../images/DSC_0351-min.JPG');
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  height: 100%;
+}
+
+h1, h2 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3.6em;
+}
+
+h2 {
+  font-size: 2.4em;
+  line-height: 1.5em;
+}
+
+h2 a {
+  font-size: 1em;
+}
+
+p {
+  font-size: 1.8em;
+  line-height: 1.9em;
+}
+
+p a {
+  font-size: 1em;
+}
+
+a {
+  font-size: 1.8em;
+  color: #000000;
+}
+
+nav {
+  background-color: #87a7c4;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav ul li {
+  float: left;
+  padding: 1em 0;
+  width: 25%;
+  text-align: center;
+}
+
+.clear:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.translucent {
+  margin: 0 auto;
+  padding: 3em;
+  max-width: 60em;
+  text-align: center;
+  background-color:rgba(135,167,196,0.8);
+}
