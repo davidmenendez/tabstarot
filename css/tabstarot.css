@@ -1,19 +1,124 @@
 * {
-  font-family: Verdana, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 100%
   background-color: #87a7c4;
-  background-image: url('../images/DSC_0183-min.JPG');
-  background-repeat: no-repeat;
-  background-position-x: center;
-  background-position-y: center;
-  background-attachment: fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #333;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  flex: 1;
   background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  background-color: #87a7c4;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  text-align: center;
+}
+
+nav h1 {
+  font: inherit;
+  line-height: inherit;
+  margin: 0;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+}
+
+.nav-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1rem;
+}
+
+h1, h2, h3 {
+  font-weight: 300;
+  line-height: 1.1;
+  margin-bottom: .5rem;
+}
+
+h1 {
+  font-size: 3.797rem;
+}
+
+h2 {
+  font-size: 2.531rem;
+}
+
+h3 {
+  font-size: 1.688rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 300ms ease;
+}
+
+a:hover {
+  color: #FAA782;
+}
+
+.container {
+  width: 100%;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 5.695rem;
+}
+
+.home {
+  background-image: url('../images/DSC_0183-min.JPG');
 }
 
 .dailycard {
@@ -28,77 +133,7 @@ html {
   background-image: url('../images/DSC_0351-min.JPG');
 }
 
-html, body {
-  height: 100%;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-main {
-  height: 100%;
-}
-
-h1, h2 {
-  font-weight: bold;
-}
-
-h1 {
-  font-size: 3.6em;
-}
-
-h2 {
-  font-size: 2.4em;
-  line-height: 1.5em;
-}
-
-h2 a {
-  font-size: 1em;
-}
-
-p {
-  font-size: 1.8em;
-  line-height: 1.9em;
-}
-
-p a {
-  font-size: 1em;
-}
-
-a {
-  font-size: 1.8em;
-  color: #000000;
-}
-
-nav {
-  background-color: #87a7c4;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav ul li {
-  float: left;
-  padding: 1em 0;
-  width: 25%;
-  text-align: center;
-}
-
-.clear:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .translucent {
-  margin: 0 auto;
-  padding: 3em;
-  max-width: 60em;
   text-align: center;
   background-color:rgba(135,167,196,0.8);
 }
