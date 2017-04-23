@@ -33,6 +33,9 @@ main {
 }
 
 nav {
+  position: fixed;
+  width: 100%;
+  height: 4.5rem;
   background-color: #4f79a0;
 }
 
@@ -105,6 +108,10 @@ a:hover,
 a:active,
 a:focus {
   color: #000;
+}
+
+main section {
+  padding-top: 4.5rem;
 }
 
 .container {
