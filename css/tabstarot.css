@@ -55,6 +55,7 @@ nav a {
   display: block;
   padding: 1rem;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .nav-inner {
@@ -66,8 +67,14 @@ nav a {
 }
 
 @media (max-width: 425px) {
+  nav {
+    height: 9rem;
+  }
   .nav-inner {
     flex-direction: column;
+  }
+  main .hero, main .content {
+    padding-top: 9rem;
   }
 }
 
