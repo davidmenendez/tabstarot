@@ -101,7 +101,9 @@ a {
   transition: all 300ms ease;
 }
 
-a:hover {
+a:hover,
+a:active,
+a:focus {
   color: #000;
 }
 
