@@ -113,6 +113,10 @@ a:focus {
   color: #000;
 }
 
+.title {
+  text-transform: uppercase;
+}
+
 main section {
   padding-top: 4.5rem;
 }
@@ -143,7 +147,7 @@ main section {
   background-image: url('../images/DSC_0183-min.JPG');
 }
 
-.dailycard {
+.reviews {
   background-image: url('../images/DSC_0320-min.JPG');
 }
 
@@ -151,11 +155,15 @@ main section {
   background-image: url('../images/DSC_0326-min.JPG');
 }
 
-.contact {
+.contact, .faq {
   background-image: url('../images/DSC_0351-min.JPG');
 }
 
 .translucent {
   text-align: center;
   background-color:rgba(135,167,196,0.9);
+}
+
+.nowrap {
+  white-space: nowrap;
 }
