@@ -147,16 +147,24 @@ main section {
   background-image: url('../images/DSC_0183-min.JPG');
 }
 
-.reviews {
-  background-image: url('../images/DSC_0320-min.JPG');
-}
-
 .about {
   background-image: url('../images/DSC_0326-min.JPG');
 }
 
 .contact, .faq {
   background-image: url('../images/DSC_0351-min.JPG');
+}
+
+.reviews {
+  margin: 2rem 0;
+  padding: 2rem 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  list-style: none;
+}
+
+.reviews li {
+  padding: 1rem 0;
 }
 
 .translucent {
