@@ -187,6 +187,34 @@ main section {
   border-bottom: 1px solid black;
 }
 
+.contact ul {
+  list-style: none;
+}
+
+.contact li.first {
+  margin: 2rem 0 0 0;
+  padding: 2rem 0 0 0;
+  border-top: 1px solid black;
+}
+
+.contact li.last {
+  margin: 1rem 0 2rem 0;
+  padding: 1rem 0 2rem 0;
+  border-bottom: 1px solid black;
+}
+
+p.first {
+  margin: 2rem 0 0 0;
+  padding: 2rem 0 0 0;
+  border-top: 1px solid black;
+}
+
+p.last {
+  margin: 0 0 2rem 0;
+  padding: 0 0 2rem 0;
+  border-bottom: 1px solid black;
+}
+
 .translucent {
   text-align: center;
   background-color:rgba(135,167,196,0.9);
